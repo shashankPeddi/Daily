@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".installment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Select Type of installment:"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:background="#F30404"
+        android:id="@+id/planets_spinner"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Select number of installments"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <Spinner
+        android:background="#F30404"
+        android:id="@+id/planets_spinner1"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:hint="Please Enter Your Phone number"
+        android:textAlignment="center"
+        android:id="@+id/phone"
+        android:layout_height="118dp" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:onClick="next"
+        android:layout_height="wrap_content"
+        android:text="next" />
+</LinearLayout>
